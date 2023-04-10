@@ -1,0 +1,54 @@
+{
+    "sidebar":[
+        {
+            "title":"Home",
+            "path": "/"
+        },
+        {
+            "title":"Furniture",
+            "path": "/pages/Furniture"
+        },
+        {
+            "title":"Food",
+            "path": "/pages/Food"
+        },
+        {
+            "title":"template",
+            "path": "#",
+            "subcats":[
+                {
+                    "title":"template",
+                    "path": "/pages/template"
+                },
+                {
+                    "title":"template",
+                    "path": "/pages/template"
+                }
+            ]
+        },
+        {
+            "title":"Enchants",
+            "path": "/pages/Enchants"
+        },
+        {
+            "title":"Indium",
+            "path": "/pages/Indium_Ingot"
+        },
+        {
+            "title":"Knife",
+            "path": "/pages/Knife"
+        },
+        {
+            "title":"Scythe",
+            "path": "/pages/Scythe"
+        },
+        {
+            "title":"Other",
+            "path": "/pages/Other"
+        },
+        {
+            "title":"Grief",
+            "path": "/pages/Grief"
+        }
+    ]
+}

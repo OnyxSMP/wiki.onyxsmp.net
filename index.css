@@ -1,0 +1,75 @@
+ body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    background-color: #383333;
+    color: white;
+  }
+  
+  .header {
+    padding: 10px 16px;
+     margin-left: 240px;
+    background: #211e1e;
+    color: #f1f1f1;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url(side.jpg);
+    background-repeat:round;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  .main {
+    margin-left: 250px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    font-weight: 600;
+  }
+
+  .main a {
+    padding: 0;
+    text-decoration: underline;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    a {font-size: 18px;}
+  }
